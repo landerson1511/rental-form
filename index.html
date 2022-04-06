@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rental Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+       	<section>
+		<div class="form-message">
+			<h2>Interested in renting an item</h2>
+		<p>Fill out the form below with the items you'd like and any questions you may have. I'll get back to you as soon as possible to confirm the details and secure the date</p>
+		</div>
+		</section>
+		
+		<div class="container">
+		<form class="form" id="form">
+			<h2>Rental Interest Form</h2>
+			<div class="form-control">
+				<label for="name">Name</label>
+				<input type="text" id="name" placeholder="Enter your name"/>
+				<small>Error Message</small>
+			</div>
+			
+		 <div class="form-control">
+			 <label for="address">Address of Event</label>
+			 <input type="text" id="address" placeholder="Address"/>
+			 <label for="city">City</label>
+			 <input type="text" id="city" placeholder="City"/>
+			 <label for="state">State</label>
+			 <input type="text" id="state" placeholder="State"/>
+			 <label for="zip">Zip-Code</label>
+			 <input type="text" id="zip" placeholder="Zip-code"/>
+			 <small>Error Message</small>
+			</div>
+			<div class="form-control">
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" >
+				<small>Error Message</small>
+			</div>
+			<div class="form-control">
+				<label for="email">Email:</label>
+				<input type="text" id="email" placeholder="email@email.com"/>
+				<small>Error Message</small>
+			</div>
+			<div class="form-control">
+				<label for="date">Date of Event:</label>
+				<input type="date" id="date"/>
+				<label for="time">Start Time:</label>
+				<input type="time" id="time"</input>
+				<label for="time">End Time:</label>
+				<input type="time" id="time"</input>
+				<small>Error Message</small>
+			</div>
+			<div class="form-control">
+				<p>Which items would you like to rent?</p>
+				<label for="snocone"><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT-44PSpQ4bBctEMeMfrqQarlJzC8iXSHpRl08IFUmHHVkecryQSAWfpqm5_4VL6YJluBGYs-5XBQ&usqp=CAc"><br><br>Sno cone Machine</label>
+				<input type="checkbox" id="concession"/><br>
+				<label for="cotton-candy"><img src="https://m.media-amazon.com/images/I/71Ml5f8pbWL._AC_SX466_.jpg"><br>Cotton Candy Machine</label>
+				<input type="checkbox" id="concession"/><br>
+			<label for="cups"><img src="https://m.media-amazon.com/images/I/717AZfWB0VL._AC_SX679_.jpg">
+				<input type="checkbox" id="concession"/><br>
+			
+			
+			<button>Submit</button>
+			</form>
+			</div>
+
+	<script src="src/index.js">
+	</script>
+       	
+</body>
+</html>
